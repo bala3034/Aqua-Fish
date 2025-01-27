@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aquatic Fish Online - Payment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: #e0f7fa; font-family: Arial, sans-serif;">
+
+    <header align="center">
+        <h1>Payment - Aquatic Fish Online</h1>
+    </header>
+    
+    <section align="center">
+        <h2>Scan the QR Code to Complete Your Purchase</h2>
+        <img src="Images/qr-code.jpeg" alt="QR Code for payment" style="width: 500px; height: 700px;">
+        <p>After scanning and paying, please click below to verify and confirm your order:</p>
+        <button onclick="confirmPayment()" style="padding: 10px 20px; font-size: 16px; background-color: #00796b; color: white; border: none; cursor: pointer;">
+            Confirm Payment
+        </button>
+    </section>
+
+    <script>
+        function confirmPayment() {
+            alert("Payment Successful! Thank you for your purchase at Aquatic Fish Online.");
+            window.location.href = "home.html";
+        }
+    </script>
+</body>
+</html>
